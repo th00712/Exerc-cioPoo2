@@ -7,7 +7,7 @@ public class Pessoa {
         this.matricula = matricula;
     }
 
-    public String getNome() {
+    public String getNome(Aluno aluno) {
         return nome;
     }
 
@@ -15,7 +15,7 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public Integer getMatricula() {
+    public Integer getMatricula(Aluno aluno) {
         return matricula;
     }
 
